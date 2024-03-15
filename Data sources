@@ -1,0 +1,29 @@
+wb_indicator = ["NY.GDP.MKTP.KD", #GDP(constant 2015)
+                 "NE.CON.TOTL.CD", #Consumption(current)
+                 "NE.GDI.FTOT.CD", #Investment(current)
+                 "BN.CAB.XOKA.CD", #Current account(BoP,current)
+                 "BX.GSR.GNFS.CD", #Exports(BoP,current)
+                 "BM.GSR.GNFS.CD", #Imports(BoP,current)
+                ]
+
+ukrstat_indicators = ["https://www.ukrstat.gov.ua/operativ/operativ2022/gdn/Vrch/vrch_ed2022_ue.xlsx", #Working hours(monthly,2022)
+                      "https://www.ukrstat.gov.ua/operativ/operativ2021/gdn/Vrch_ed/vrch_ed2021_ue.xlsx", #Working hours(monthly,2021)
+                      "https://www.ukrstat.gov.ua/operativ/operativ2020/gdn/Vrch_ed/vrch_ed2020_ue.xlsx", #Working hours(monthly,2020)
+                      "https://www.ukrstat.gov.ua/operativ/operativ2019/gdn/Vrch_ed/vrch_ed2019_u.xlsx", #Working hours(monthly,2019)
+                      "https://www.ukrstat.gov.ua/operativ/operativ2018/gdn/Vrch_ed/vrch_ed2018_u.xlsx", #Working hours(monthly,2018)
+                      "https://www.ukrstat.gov.ua/operativ/operativ2017/gdn/Vrch_ed/vrch_ed_u.zip", #Working hours(monthly,2017)
+                      "https://www.ukrstat.gov.ua/operativ/operativ2022/gdn/snzp/snzp_ek/smzp_ek_23_ue.xlsx", #Average wages(quarterly,2023)
+                      "https://www.ukrstat.gov.ua/operativ/operativ2022/gdn/snzp/snzp_ek/smzp_ek_22_ue.xlsx", #Average wages(quarterly,2022)
+                      "https://www.ukrstat.gov.ua/operativ/operativ2021/gdn/snzp/snzp_ek/smzp_ek_21_ue.xlsx", #Average wages(quarterly,2021)
+                      "https://www.ukrstat.gov.ua/operativ/operativ2020/gdn/snzp/snzp_ek/smzp_ek_20_ue.xlsx", #Average wages(quarterly,2020)
+                      "https://www.ukrstat.gov.ua/operativ/operativ2019/gdn/snzp/snzp_ek/smzp_ek_u_19.xlsx", #Average wages(quarterly,2019)
+                      "https://www.ukrstat.gov.ua/operativ/operativ2018/gdn/snzp/snzp_ek/smzp_ek_u_18.xlsx", #Average wages(quarterly,2018)
+                      "https://www.ukrstat.gov.ua/operativ/operativ2017/gdn/snzp/snzp_ek/smzp_ek_u.zip", #Average wages(quarterly,2017)
+                      "https://bank.gov.ua/en/markets/interest-rates?startDate=1992-12-10&endDate=2023-12-10", #Interest rate (daily, 1992-2023)
+                      "https://bank.gov.ua/en/markets/secondary-ovdp-chart?startDate=1992-11-10&endDate=2023-12-10&valcode=UAH", #Bonds UAH (2010-2023)
+                      "https://bank.gov.ua/en/markets/secondary-ovdp-chart?startDate=1992-11-10&endDate=2023-12-10&valcode=USD", #Bonds USD (2011-2023)
+                      "https://bank.gov.ua/en/markets/secondary-ovdp-chart?startDate=1992-11-10&endDate=2023-12-10&valcode=EUR", #Bonds EUR (2016-2023)
+                     ]
+
+fred_indicator = ["RKNANPUAA666NRUG", #Stock of Capital (constant 2017)
+                 ]
